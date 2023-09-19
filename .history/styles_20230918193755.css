@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+
+
+body {
+    font-family: 'Poppins-Bold', sans-serif;
+    background-color: rgba(240,240,240,255);
+}
+
+.grid-container {
+    background-color: white;
+    border-radius: 1em 1em 7em 1em;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.dob {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: start;
+    padding: 3em;
+}
+
+.dob p {
+    color: rgba(121,121,121,255);
+}
+
+.results {
+    text-align: start;
+    padding: 3em;
+}
+
+.results span {
+    color: rgba(134,76,255,255);
+}
+
+hr {
+    opacity: 30%;
+    width: 90%;
+}
+
+.calculate {
+    height: 0px;
+}
+
+.line {
+    height: 0px;
+}
+
+.calculate button {
+ background-color: rgba(134,76,255,255);
+ border-radius: 50%;
+ border: none;
+ height: 5em;
+ width: 5em;
+ cursor: pointer;
+ position: absolute;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

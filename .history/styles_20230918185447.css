@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: 'Poppins-Bold', sans-serif;
+    text-align: center;
+    background-color: rgba(240,240,240,255);
+}

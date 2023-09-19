@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+
+
+body {
+    font-family: 'Poppins-Bold', sans-serif;
+    background-color: rgba(240,240,240,255);
+    display: grid;
+    justify-content: center;
+}
+
+.grid-container {
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 1em 1em 7em 1em;
+    padding: 3em;
+}
+
+.dob {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dob p {
+    color: rgba(121,121,121,255);
+}
+
+hr {
+    grid-row: ;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
