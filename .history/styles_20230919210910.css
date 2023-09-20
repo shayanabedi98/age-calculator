@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(./assets/fonts/Poppins-Bold.ttf);
+}
+
+body {
+    font-family: 'Poppins-Bold', sans-serif;
+    background-color: rgba(240,240,240,255);
+}
+
+.grid-container {
+    background-color: white;
+    border-radius: 1em 1em 7em 1em;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.dob {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    text-align: start;
+    padding: 3em;
+}
+
+.dob p {
+    color: rgba(121,121,121,255);
+}
+
+.dob input {
+    height: 5em;
+    width: 10em;
+    border: rgb(187, 187, 187) 1px solid;
+    border-radius: 0.6em;
+}
+
+.day, .month, .year {
+    
+}
+
+.results {
+    text-align: start;
+    padding: 3em;
+}
+
+.results span {
+    color: rgba(134,76,255,255);
+}
+
+hr {
+    opacity: 30%;
+    width: 85%;
+    margin-left: 3em;
+}
+
+.line {
+    height: 0px;
+}
+
+.line button {
+ background-color: rgba(134,76,255,255);
+ border-radius: 50%;
+ border: none;
+ height: 5em;
+ width: 5em;
+ cursor: pointer;
+ position: relative;
+ top: 3.3em;
+ z-index: 1;
+ left: 40%;
+}
+
+.line svg {
+    width: 2.5em;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
